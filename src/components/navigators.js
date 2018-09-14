@@ -31,7 +31,7 @@ export const Stack = createStackNavigator({
       headerLeft: (
         <View key={1654} style={{marginLeft: 10}}>
           <Icon
-            name="menu"
+            name="menu" 
             size={25}
             color="#D4AF37"
             onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
